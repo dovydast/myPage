@@ -49,18 +49,15 @@ if( !($name=='') && !($email=='') &&!($message=='') )
      /* Let's prepare the message for the e-mail */
 		$msg = "Hello! $name
 
- Thank you...! For Contacting Us.
+ Thank you...! For contacting me.
 
  Name: $name
  E-mail: $email
  Message: $message 
   
- This is a Contact Confirmation mail.
- We Will contact You as soon as possible.";
+ This is a Contact Confirmation mail.";
 
-$msg1 = " $name Contacted Us.
-
- Here are some information about $name.
+$msg1 = " $name Contacted me.
 
  Name: $name
  E-mail: $email

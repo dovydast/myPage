@@ -12,6 +12,8 @@
         crossorigin="anonymous">
     <!-- Custom css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -44,25 +46,18 @@
 
         <div class="main">
             <br>
+           
           <h1 class="text-center">Dovydas Tamulis</h1>
-            <form method="post" action="index.php">
-                <label>Name :</label>
-                <input class="input" type="text" name="name" value="">
-                <span class="error"><?php echo $nameError;?></span>
-                <label>Email :</label>
-                <input class="input" type="text" name="email" value="">
-                <span class="error"><?php echo $emailError;?></span>
-                <label>Message :</label>
-                <textarea name="message" val=""></textarea>
-                <span class="error"><?php echo $messageError;?></span>
-                <input class="submit" type="submit" name="submit" value="Submit">
-                <span class="success"><?php echo $successMessage;?></span>
-            </form>
+          <!--
+           <div class="text-center">
+            <img class="rounded-circle pic" src="img/mee.jpg" height:100px; alt="Dovydas Tamulis">
+            </div>
+            -->
         </div>
         <!--Main -->
  <div class="page-header">
        
-
+<a href="http://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
         <br>
     </div>
     <p>textttttt</p>
@@ -89,9 +84,7 @@
 
 
 
-    <section class="contactform">
-
-    </section>
+    
 
 
     <section>
@@ -103,14 +96,50 @@
 
 
 
-    <footer class="footer">
-        <p class="text-center footer-text">D.Tamulis - 2017
-            <p>
+   
+
+<section class="contactform">
+
+
+            <form method="post" action="index.php">
+                <div class="col-md-6 offset-md-3">
+                <div class="form-group">
+                <input class="input form-control" type="text" placeholder="Name" name="name" value="">
+                <span class="error"><?php echo $nameError;?></span>
+            </div>
+            </div>
+             <div class="col-md-6 offset-md-3">
+            <div class="form-group">
+                <input class="input form-control" type="text" placeholder="Email..." name="email" value="">
+                <span class="error"><?php echo $emailError;?></span>
+               </div>
+               </div>
+                <div class="col-md-6 offset-md-3">
+                 <div class="form-group">
+                <textarea class="form-control" name="message" val="" placeholder="Message..."></textarea>
+                <span class="error"><?php echo $messageError;?></span>
+                </div>
+                </div>
+                 <div class="col-md-6 offset-md-3">
+                <input class="btn btn-outline-secondary btn-lg btn-block" type="submit" name="submit" value="Submit">
+                <span class="success"><?php echo $successMessage;?></span>
+                </div>
+            </form>
+           
+    </section>
+
+<section>
+ <footer class="footer">
+ 
+          <div class="text-center footer-text">
+              <span class="space"><i class="fa fa-map-marker" aria-hidden="true"></i> Esbjerg</span>
+              <span class="space"><i class="fa fa-envelope" aria-hidden="true"></i> dovydastt@gmail.com</span>
+              <span class="space"><i class="fa fa-mobile" aria-hidden="true"></i> +45 5022 7737 - DK</span>
+                 <span class="space"><i class="fa fa-mobile" aria-hidden="true"></i> +370 6381 8209 - LT</span>
+              <div>
+    
     </footer>
-
-
-
-
+    </section>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

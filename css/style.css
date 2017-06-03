@@ -14,6 +14,14 @@ body {
   left: 0;
   color: #fff; }
 
+.error, .success {
+  color: #e5e5e5;
+  font-size: 12px; }
+
+.pic {
+  height: 225px;
+  width: 200px; }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -26,5 +34,14 @@ h1 {
 
 .map-responsive {
   filter: invert(90%); }
+
+.contactform {
+  height: 500px;
+  background-color: #464849;
+  margin-top: -7px;
+  padding-top: 7vh; }
+
+.space {
+  padding-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */

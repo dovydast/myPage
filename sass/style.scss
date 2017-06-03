@@ -1,3 +1,7 @@
+$lightcolor:#464849;
+$darkcolor:#292B2C;
+$errorColor:#e5e5e5;
+
 html{
     position:relative;
     min-height: 100%;
@@ -9,12 +13,25 @@ body{
 
 .footer{
     height:100px;
-    background-color:#292B2C;
+    background-color:$darkcolor;
     position:absolute;
     right:0;
     bottom:0;
     left:0;
     color:#fff;
+}
+.error{
+    color:$errorColor;
+    font-size: 12px;
+}
+
+.success{
+    @extend .error;
+}
+
+.pic{
+    height: 225px;
+    width: 200px;
 }
 
 h1{
@@ -26,12 +43,22 @@ h1{
 }
 
 .footer-text{
- padding-top: 40px;
+ padding-top:40px;
 }
 
 .map-responsive{
    
     filter:invert(90%);
+    
 }
 
+.contactform{
+    height: 500px;
+    background-color: $lightcolor;
+        margin-top: -7px;
+       padding-top:7vh;
+}
 
+.space{
+        padding-right: 20px;
+}
