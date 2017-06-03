@@ -1,3 +1,4 @@
+<?php include 'validation.php';?>
 <!doctype html>
 <html lang="en">
 
@@ -38,24 +39,49 @@
                 </li>
             </ul>
     </nav>
-<div class="page-header">
-  <h1 class="text-center">Dovydas Tamulis</h1>
 
-  <br>
-</div>
-<p>textttttt</p>
-<br>
-<p>textttttt</p>
-<br>
-<p>textttttt</p>
-<br>
-<p>textttttt</p>
-<br>
-<p>textttttt</p>
-<br>
-<p>textttttt</p>
-<br>
-<p>textttttt</p>
+    <div class="container">
+
+        <div class="main">
+            <br>
+          <h1 class="text-center">Dovydas Tamulis</h1>
+            <form method="post" action="index.php">
+                <label>Name :</label>
+                <input class="input" type="text" name="name" value="">
+                <span class="error"><?php echo $nameError;?></span>
+                <label>Email :</label>
+                <input class="input" type="text" name="email" value="">
+                <span class="error"><?php echo $emailError;?></span>
+                <label>Message :</label>
+                <textarea name="message" val=""></textarea>
+                <span class="error"><?php echo $messageError;?></span>
+                <input class="submit" type="submit" name="submit" value="Submit">
+                <span class="success"><?php echo $successMessage;?></span>
+            </form>
+        </div>
+        <!--Main -->
+ <div class="page-header">
+       
+
+        <br>
+    </div>
+    <p>textttttt</p>
+    <br>
+    <p>textttttt</p>
+    <br>
+    <p>textttttt</p>
+    <br>
+    <p>textttttt</p>
+    <br>
+    <p>textttttt</p>
+    <br>
+    <p>textttttt</p>
+    <br>
+    <p>textttttt</p>
+
+    </div>
+    <!--Container -->
+   
 
 
 
@@ -63,23 +89,23 @@
 
 
 
+    <section class="contactform">
 
-<section class="contactform">
-
-</section>
+    </section>
 
 
-<section>
-<div class="map-responsive"> 
-    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.9352021175223!2d8.436227315925528!3d55.51607798049066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b205eb7ed0697%3A0x94b2679914bc9652!2sThulevej+50%2C+6715+Esbjerg+N%2C+Danija!5e0!3m2!1slt!2slt!4v1496490722301"
-     width="100%" height="350" style="border:0" allowfullscreen></iframe>
-</div>
-</section>
+    <section>
+        <div class="map-responsive">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.9352021175223!2d8.436227315925528!3d55.51607798049066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b205eb7ed0697%3A0x94b2679914bc9652!2sThulevej+50%2C+6715+Esbjerg+N%2C+Danija!5e0!3m2!1slt!2slt!4v1496490722301"
+                width="100%" height="350" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
 
 
 
     <footer class="footer">
-        <p class="text-center footer-text">D.Tamulis - 2017<p>
+        <p class="text-center footer-text">D.Tamulis - 2017
+            <p>
     </footer>
 
 
