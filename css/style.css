@@ -1,0 +1,30 @@
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.footer {
+  height: 100px;
+  background-color: #292B2C;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.footer-text {
+  padding-top: 40px; }
+
+.map-responsive {
+  filter: invert(90%); }
+
+/*# sourceMappingURL=style.css.map */
