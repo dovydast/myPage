@@ -1,1 +1,1 @@
-# This is a source code of [dovydast.lt] (www.dovydast.lt)
+# This is a source code of www.dovydast.lt
