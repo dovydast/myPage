@@ -1,6 +1,8 @@
 $lightcolor:#464849;
 $darkcolor:#292B2C;
 $errorColor:#e5e5e5;
+$indigo:#3c6478;
+$darkindigo:#0D3D56;
 
 html{
     position:relative;
@@ -13,7 +15,7 @@ body{
 
 .footer{
     height:100px;
-    background-color:$darkcolor;
+    background-color:$darkindigo;
     position:absolute;
     right:0;
     bottom:0;
@@ -27,6 +29,11 @@ body{
 
 .success{
     @extend .error;
+}
+
+.contact-text{
+    color:$errorColor;
+
 }
 
 .pic{
@@ -44,6 +51,18 @@ h1{
 
 .footer-text{
  padding-top:40px;
+ color:$errorColor;
+}
+
+.btn-outline-secondary {
+    color:$errorColor;
+    background-image: none;
+    background-color: transparent;
+    border-color:$darkindigo;
+}
+
+.btn-outline-secondary:hover {
+    background-color:$darkindigo;
 }
 
 .map-responsive{
@@ -52,9 +71,56 @@ h1{
     
 }
 
+
+.header{
+   background-image:url('../img/sky.jpg');
+   background-attachment: fixed;
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:center;
+   height:340px;
+   width:100%;
+}
+
+.transparent-box{
+    height:50%;
+    width:55%;
+    background: rgba(000, 000, 000, 0.4);
+    color:#fff;
+    margin-left: 22%;
+    position: relative;
+    top: 28%;
+    border-radius: 2px;
+    
+}
+
+.move-text{
+        padding: 47px;
+}
+
+@media (max-width:679px) {
+   h1{
+       font-size:16px;
+   }
+   .lead{
+       font-size:12px;
+       white-space: nowrap;
+   }
+ .transparent-box{  height: 50%;
+    /* width: 55%; */
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    margin-left: 0%;
+    position: relative;
+    top: 28%;
+    border-radius: 2px;
+    min-width: 100%;
+ }
+}
+
 .contactform{
     height: 500px;
-    background-color: $lightcolor;
+    background-color: $indigo;
         margin-top: -7px;
        padding-top:7vh;
 }
@@ -62,3 +128,42 @@ h1{
 .space{
         padding-right: 20px;
 }
+
+
+/* change navbar background */
+nav.navbar {
+  background-color:$darkindigo !important;
+}
+/* change navbar-brand color */
+.navbar a.navbar-brand {
+  color: white;
+}
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+  color: #fff;
+}
+/*  change navbar li colors, also active one but not disabled one */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #50a1c9;
+}
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+/* change hamburger button border color */
+button.navbar-toggler.navbar-toggler-right {
+  border-color:$indigo;
+}
+/* change navbar background on collapse */
+@media (max-width: 768px) {
+  nav.navbar {
+    background: lightgray;
+  }
+}
+
+

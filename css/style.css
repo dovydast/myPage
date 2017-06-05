@@ -7,7 +7,7 @@ body {
 
 .footer {
   height: 100px;
-  background-color: #292B2C;
+  background-color: #0D3D56;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -17,6 +17,9 @@ body {
 .error, .success {
   color: #e5e5e5;
   font-size: 12px; }
+
+.contact-text {
+  color: #e5e5e5; }
 
 .pic {
   height: 225px;
@@ -30,18 +33,101 @@ h1 {
   text-transform: uppercase; }
 
 .footer-text {
-  padding-top: 40px; }
+  padding-top: 40px;
+  color: #e5e5e5; }
+
+.btn-outline-secondary {
+  color: #e5e5e5;
+  background-image: none;
+  background-color: transparent;
+  border-color: #0D3D56; }
+
+.btn-outline-secondary:hover {
+  background-color: #0D3D56; }
 
 .map-responsive {
   filter: invert(90%); }
 
+.header {
+  background-image: url("../img/sky.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 340px;
+  width: 100%; }
+
+.transparent-box {
+  height: 50%;
+  width: 55%;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  margin-left: 22%;
+  position: relative;
+  top: 28%;
+  border-radius: 2px; }
+
+.move-text {
+  padding: 47px; }
+
+@media (max-width: 679px) {
+  h1 {
+    font-size: 16px; }
+
+  .lead {
+    font-size: 12px;
+    white-space: nowrap; }
+
+  .transparent-box {
+    height: 50%;
+    /* width: 55%; */
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    margin-left: 0%;
+    position: relative;
+    top: 28%;
+    border-radius: 2px;
+    min-width: 100%; } }
 .contactform {
   height: 500px;
-  background-color: #464849;
+  background-color: #3c6478;
   margin-top: -7px;
   padding-top: 7vh; }
 
 .space {
   padding-right: 20px; }
+
+/* change navbar background */
+nav.navbar {
+  background-color: #0D3D56 !important; }
+
+/* change navbar-brand color */
+.navbar a.navbar-brand {
+  color: white; }
+
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+  color: #fff; }
+
+/*  change navbar li colors, also active one but not disabled one */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: white; }
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #50a1c9; }
+
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white; }
+
+/* change hamburger button border color */
+button.navbar-toggler.navbar-toggler-right {
+  border-color: #3c6478; }
+
+/* change navbar background on collapse */
+@media (max-width: 768px) {
+  nav.navbar {
+    background: lightgray; } }
 
 /*# sourceMappingURL=style.css.map */

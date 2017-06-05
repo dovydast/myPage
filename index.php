@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dovydas Tamulis - CV</title>
+    <title>CV - Dovydas.T</title>
     <!-- Bootsrap 4 css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
@@ -14,40 +14,64 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- ICONS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
             aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Dovydas Tamulis</a>
+        <a class="navbar-brand smoothScroll" href="#home">Dovydas Tamulis</a>
 
         <!-- Links -->
         <div class="collapse navbar-collapse" id="nav-content">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link 1</a>
+                    <a class="nav-link" href="https://github.com/dovydast/myPage" target="_blank"> <i class="fa fa-code" aria-hidden="true"></i> Source</a>
+                </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/dovydas-tamulis-8b8689a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/dovydast" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Git</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link 2</a>
+                    <a class="nav-link smoothScroll" href="about">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link 3</a>
+                    <a class="nav-link smoothScroll" href="#contacts">Contacts</a>
                 </li>
             </ul>
     </nav>
+
+    <section>
+            <div id="home" class="header">
+                  <div class="transparent-box animated fadeInDown">
+                      <div class="col-12 col-xs-6">
+                          <div class="container">
+                             <div class="move-text">
+                             <h1 class="text-center animated bounceInUp">Dovydas Tamulis</h1>
+                             <p class="lead text-center animated bounceInUp">Front-End developer</p>
+                             </div>
+                          </div>
+                     </div>
+                  </div>
+            </div>
+    </section>
+    
 
     <div class="container">
 
         <div class="main">
             <br>
            
-          <h1 class="text-center">Dovydas Tamulis</h1>
+         
           <!--
            <div class="text-center">
             <img class="rounded-circle pic" src="img/mee.jpg" height:100px; alt="Dovydas Tamulis">
@@ -57,7 +81,7 @@
         <!--Main -->
  <div class="page-header">
        
-<a href="http://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+
         <br>
     </div>
     <p>textttttt</p>
@@ -100,6 +124,10 @@
 
 <section class="contactform">
 
+           <div class="col-md-6 offset-md-3">
+               <div class="contact-text">Leave a message, usually i respond in 1-2 hours by email</div>
+               <br>
+           </div>
 
             <form method="post" action="index.php">
                 <div class="col-md-6 offset-md-3">
@@ -129,7 +157,7 @@
     </section>
 
 <section>
- <footer class="footer">
+ <footer id="contacts" class="footer">
  
           <div class="text-center footer-text">
               <span class="space"><i class="fa fa-map-marker" aria-hidden="true"></i> Esbjerg</span>
@@ -146,6 +174,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+    <script src="js/SmoothScroll.js"></script>
+   
 </body>
 
 </html>
