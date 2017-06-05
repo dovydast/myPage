@@ -42,7 +42,7 @@
                     <a class="nav-link" href="https://github.com/dovydast" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Git</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoothScroll" href="about">About me</a>
+                    <a class="nav-link smoothScroll" href="#about">About me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link smoothScroll" href="#contacts">Contacts</a>
@@ -57,7 +57,7 @@
                           <div class="container">
                              <div class="move-text">
                              <h1 class="text-center animated bounceInUp">Dovydas Tamulis</h1>
-                             <p class="lead text-center animated bounceInUp">Front-End developer</p>
+                              <p class="lead text-center animated bounceInUp">Front-End developer, student</p>
                              </div>
                           </div>
                      </div>
@@ -65,38 +65,30 @@
             </div>
     </section>
     
-
     <div class="container">
-
-        <div class="main">
-            <br>
-           
-         
-          <!--
-           <div class="text-center">
-            <img class="rounded-circle pic" src="img/mee.jpg" height:100px; alt="Dovydas Tamulis">
-            </div>
-            -->
-        </div>
-        <!--Main -->
- <div class="page-header">
-       
-
+ <div id="about" class="main">
         <br>
+            <div class="row">
+               <div class="col-md-3 col-xs-12">
+                
+              <img class="rounded-circle pic" src="img/me.jpg" alt="Dovydas Tamulis">
+                  
+               </div>
+               <div class="col-md-9 col-xs-12">
+                   <p class="titles">About me</p>
+                   My main strengths are adaptability, dependability, flexibility and the
+                   determination to get a job done as proven by my varied work experiences.
+                   I try to learn something new from every experience because I
+                   believe there is always room for self-improvement both personally and
+                   professionally. I am able to work well both on my own initiative and as
+                   part of a team.</div>
+            </div>
+            <br>
+  
+        
     </div>
-    <p>textttttt</p>
-    <br>
-    <p>textttttt</p>
-    <br>
-    <p>textttttt</p>
-    <br>
-    <p>textttttt</p>
-    <br>
-    <p>textttttt</p>
-    <br>
-    <p>textttttt</p>
-    <br>
-    <p>textttttt</p>
+    
+   
 
     </div>
     <!--Container -->
