@@ -18,6 +18,20 @@ color:$indigo;
 font-size:28px;
 }
 
+.subjects{
+color:$indigo;
+
+}
+
+.boldIT{
+    font-weight: bold;
+}
+ul{
+     list-style-type: none;
+}
+.smallIT{
+    font-size:12px;
+}
 .footer{
     height:100px;
     background-color:$darkindigo;
@@ -44,6 +58,7 @@ font-size:28px;
 .pic{
     height: 200px;
     width: 200px;
+    pointer-events:none;
 }
 
 h1{

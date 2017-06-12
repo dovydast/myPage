@@ -65,13 +65,13 @@
             </div>
     </section>
     
-    <div class="container">
- <div id="about" class="main">
+    <div id="about" class="container">
+ <div class="main">
         <br>
             <div class="row">
                <div class="col-md-3 col-xs-12">
                 
-              <img class="rounded-circle pic" src="img/me.jpg" alt="Dovydas Tamulis">
+              <img draggable="false" class="rounded-circle pic" src="img/me.jpg" alt="Dovydas Tamulis">
                   
                </div>
                <div class="col-md-9 col-xs-12">
@@ -84,8 +84,134 @@
                    part of a team.</div>
             </div>
             <br>
-  
-        
+            <hr></hr>
+            <div class="row">
+      <div class="col-md-4 col-xs-12" style="margin-right: -8.5%;">
+        <p class="subjects">Education</p>
+      </div>
+       <div class="col-md-4 col-xs-12">
+          <p class="boldIT"> Web development - bachelors</p>
+          <p class="smallIT"> Business Academy SouthWest - Esbjerg, Denmark</p>
+      </div>
+        <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
+          09-2016 - 01/2018 (NOW)
+      </div>
+            </div>
+             <div class="row">
+      <div class="col-md-4 col-xs-12" style="margin-right: -8.5%;">
+        <p class="subjects"></p>
+      </div>
+       <div class="col-md-4 col-xs-12">
+          <p class="boldIT"> Multimedia design & communication - AP degree</p>
+          <p class="smallIT"> Business Academy SouthWest - Esbjerg, Denmark</p>
+      </div>
+        <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
+          09-2014 - 07/2016
+      </div>
+            </div>
+            <div class="row">
+      <div class="col-md-4 col-xs-12" style="margin-right: -8.5%;">
+        <p class="subjects"></p>
+      </div>
+       <div class="col-md-4 col-xs-12">
+          <p class="boldIT"> Atžalynas gymnasium</p>
+          <p class="smallIT"> Kėdainiu "Atžalynas" gymnasium - Lithuania</p>
+      </div>
+        <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
+          09-2002 - 07/2014
+      </div>
+            </div>
+        <hr></hr>
+            <div class="row">
+      <div class="col-md-4 col-xs-12" style="margin-right: -8.5%;">
+        <p class="subjects">Experience</p>
+      </div>
+       <div class="col-md-4 col-xs-12">
+          <p class="boldIT"><img draggable="false" style="height:40px;width:40px;"src="img/four04.jpg"> Four04 Productions - Internship</p>
+          <p class="smallIT"> EdgeLandingpage, different assignments - Copenhagen, Denmark</p>
+      </div>
+        <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
+          06-2017 - (NOW)
+      </div>
+            </div>
+            <div class="row">
+      <div class="col-md-4 col-xs-12" style="margin-right: -8.5%;">
+        <p class="subjects"></p>
+      </div>
+       <div class="col-md-4 col-xs-12">
+          <p class="boldIT"> <img draggable="false" style="height:40px;width:40px;"src="img/superum.jpg">Superum - Internship</p>
+          <p class="smallIT"> Wordpress - website improvements and bug fixes- Vilnius, Lithuania</p>
+      </div>
+        <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
+          01-2016 - 04/2016
+      </div>
+            </div>
+
+            <hr></hr>
+
+               <div class="row">
+      <div class="col-md-3 col-xs-12">
+        <p class="subjects">Skills</p>
+      </div>
+       <div class="col-md-3 col-xs-12">
+          <p> Languages </p>
+          <ul class="smallIT" style="border-left: 1px solid #999999;padding-left: 0.5rem;">
+              <li>
+                  Lithuanian - native
+              </li>
+              <li>
+                  English (C1)
+              </li>
+          </ul>
+      </div>
+        <div class="col-md-3 col-xs-12">
+          <p>Software</p>
+           <ul class="smallIT" style="border-left: 1px solid #999999;padding-left: 0.5rem;">
+              <li>
+                  Visual studio
+              </li>
+               <li>
+                  Visual studio code
+              </li>
+              <li>
+                  PhpStorm
+              </li>
+              <li>
+                  Git,SourceTree
+              </li>
+               <li>
+                  Unity
+              </li>
+              <li>
+                  Adobe Photoshop
+              </li>
+              <li>
+                  Adobe illustrator
+              </li>
+             
+          </ul>
+      </div>
+      <div class="col-md-3 col-xs-12">
+          <p>Technologies<p>
+               <ul class="smallIT" style="border-left: 1px solid #999999;padding-left: 0.5rem;">
+              <li>
+                  HTML5
+              </li>
+              <li>
+                  SASS (CSS3)
+              </li>
+               <li>
+                  PHP
+              </li>
+              <li>
+                  JavaScript, Angular4
+              </li>
+              <li>
+                  SQL, NoSql(mongoDB)
+              </li>
+          </ul>
+      </div>
+            </div>
     </div>
     
    
