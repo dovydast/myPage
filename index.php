@@ -131,7 +131,7 @@
           <p class="smallIT"> EdgeLandingpage, different assignments - Copenhagen, Denmark</p>
       </div>
         <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
-          06-2017 - (NOW)
+          06/2017 - 09/2017
       </div>
             </div>
             <div class="row">
@@ -143,7 +143,7 @@
           <p class="smallIT"> Wordpress - website improvements and bug fixes- Vilnius, Lithuania</p>
       </div>
         <div class="col-md-4 col-xs-12" style="margin-left: 8.5%;">
-          01-2016 - 04/2016
+          01/2016 - 04/2016
       </div>
             </div>
 
@@ -177,12 +177,6 @@
                   PhpStorm
               </li>
               <li>
-                  Git,SourceTree
-              </li>
-               <li>
-                  Unity
-              </li>
-              <li>
                   Adobe Photoshop
               </li>
               <li>
@@ -199,6 +193,8 @@
               </li>
               <li>
                   SASS (CSS3)
+              </li>   <li>
+                  Bootstrap
               </li>
                <li>
                   PHP
@@ -208,6 +204,9 @@
               </li>
               <li>
                   SQL, NoSql(mongoDB)
+              </li>
+              <li>
+                  Git
               </li>
           </ul>
       </div>
